@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Image, TextInput, TouchableOpacity, ScrollView } from 'react-native';
+import { Text, View, Image, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 import Swiper from 'react-native-swiper';
 import styles from './style'
 
-const renderPagination = (index, total, context) => {
+const renderPagination = (index, total) => {
   return (
     <View style={styles.paginationStyle}>
       <Text style={{ color: 'gray', fontWeight: 'bold' }}>

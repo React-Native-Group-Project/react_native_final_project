@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Image, TextInput, TouchableOpacity} from 'react-native';
+import { Text, View, Image, TextInput, TouchableOpacity} from 'react-native';
 import styles from './style'
 
 export default class Home extends Component{
