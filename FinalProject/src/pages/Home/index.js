@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Text, View, Image, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 import Swiper from 'react-native-swiper';
-import styles from './style'
+import styles from './style';
 
 const renderPagination = (index, total) => {
   return (
@@ -11,7 +11,7 @@ const renderPagination = (index, total) => {
       </Text>
     </View>
   )
-}
+};
 
 export default class Home extends Component{
   constructor(props) {

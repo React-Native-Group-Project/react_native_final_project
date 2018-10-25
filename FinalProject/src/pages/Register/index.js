@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Text, View, Image, TextInput, TouchableOpacity} from 'react-native';
+import { Text, View, Image, TextInput, TouchableOpacity } from 'react-native';
 import styles from './style'
 
 export default class Home extends Component{
@@ -19,7 +19,7 @@ export default class Home extends Component{
         bgChange : true,
       })
     }, 1000)
-    (bgChange = true) ? style.container.red : style.container.blue
+    (bgChange = true) ? style.container.red : style.container.blue 
   }
   render() {
     return (
